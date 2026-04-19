@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Мини-анкета</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <h1>Мини-анкета</h1>
+    <p class="lead">Ответьте на вопросы и нажмите «Отправить».</p>
+
+    <div id="message" class="message" role="status" aria-live="polite" hidden></div>
+
+    <form id="survey-form" class="form" novalidate>
+      <div id="fields" class="fields"></div>
+      <button type="submit" class="btn" id="submit-btn">Отправить</button>
+    </form>
+
+    <section id="thank-you" class="thank-you" hidden>
+      <h2>Спасибо!</h2>
+      <p>Ваши ответы отправлены.</p>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

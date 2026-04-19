@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #1a1a1a;
+  background: #f5f6f8;
+}
+
+.wrap {
+  max-width: 36rem;
+  margin: 0 auto;
+  padding: 2rem 1.25rem 3rem;
+}
+
+h1 {
+  margin: 0 0 0.5rem;
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
+.lead {
+  margin: 0 0 1.5rem;
+  color: #444;
+}
+
+.message {
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+}
+
+.message.error {
+  background: #fde8e8;
+  color: #8a1f1f;
+  border: 1px solid #f5bcbc;
+}
+
+.message.info {
+  background: #e8f0fe;
+  color: #1e3a5f;
+  border: 1px solid #bcd4f5;
+}
+
+.form {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.fields {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.field label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 0.35rem;
+}
+
+.field input {
+  width: 100%;
+  padding: 0.55rem 0.65rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font: inherit;
+}
+
+.field input:focus {
+  outline: 2px solid #3b6cff;
+  outline-offset: 1px;
+  border-color: #3b6cff;
+}
+
+.btn {
+  margin-top: 1.5rem;
+  padding: 0.6rem 1.25rem;
+  font: inherit;
+  font-weight: 500;
+  color: #fff;
+  background: #2d6cdf;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #255bb8;
+}
+
+.btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.thank-you {
+  background: #fff;
+  padding: 2rem 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.thank-you h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1.5rem;
+}
+
+.thank-you p {
+  margin: 0;
+  color: #444;
+}
